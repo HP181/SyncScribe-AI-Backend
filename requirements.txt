@@ -10,8 +10,6 @@ google-cloud-aiplatform
 google-cloud-speech
 vertexai
 pydub
-numpy
-pyaudio
-wave
+numpygit 
 reportlab
 requests
