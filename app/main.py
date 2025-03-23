@@ -37,5 +37,3 @@ if __name__ == "__main__":
         port=5000,  # Change to port 5000 to match frontend expectations
         reload=True
     )
-
-app = app
