@@ -2,19 +2,17 @@
     "version": 2,
     "builds": [
       {
-        "src": "app/main.py",
+        "src": "vercel_app.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "app/main.py"
+        "dest": "vercel_app.py"
       }
     ],
     "env": {
       "PYTHONPATH": "."
-    },
-    "outputDirectory": ".",
-    "public": false
+    }
   }
